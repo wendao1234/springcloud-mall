@@ -112,7 +112,4 @@ mvn -Dtest=ClassName#methodName test # 跑单个测试方法
 `hmall` 各服务模块的 `pom.xml` 都设置了 `<finalName>${project.artifactId}</finalName>`，打出的 jar 名是模块名，不带版本号。
 
 ## 其它工程
-
-- **mp-demo**：`com.itheima.mp` 包，独立 Spring Boot 应用，演示 MyBatis-Plus + Knife4j 基础用法，初始化 SQL 在 `mp.sql`。
-- **mq-demo**：父 pom 聚合 `publisher` 与 `consumer`，演示 RabbitMQ 各类交换机/队列模式。
 - **domain**：仅一组示例 POJO，无 pom，不需要构建。
