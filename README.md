@@ -9,8 +9,6 @@
 | 目录 | 说明 |
 |---|---|
 | `hmall/` | 文刀商城微服务实战项目（主项目，多模块 Maven 工程） |
-| `mp-demo/` | MyBatis-Plus 单体 Demo |
-| `mq-demo/` | RabbitMQ 多模块 Demo（publisher / consumer） |
 | `domain/` | 一组孤立的领域类（DTO/Query/VO），仅作示例 |
 
 ## 技术栈
